@@ -31,8 +31,8 @@ else:
         novo_cpf2 += b
 
     if novo_cpf2 == cpf:
-        msg = f'O CPF {novo_cpf2} é válido!'
+        msg = f'O CPF {cpf} é válido!'
     else:
-        msg = f'O CPF {novo_cpf2} é inválido!'
+        msg = f'O CPF {cpf} é inválido!'
 
 print(msg)
